@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="StravaGPX">
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:route="http://gpx-routes.example.com/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="StravaGPX">
   <metadata>
     <desc>Distance: 139.5 km | Elevation: +3193m / -3193m</desc>
+    <extensions>
+      <route:distance>139.5</route:distance>
+      <route:elevation>3193</route:elevation>
+    </extensions>
   </metadata>
   <trk>
     <name>Samoeng XXL + Mon Cham</name>

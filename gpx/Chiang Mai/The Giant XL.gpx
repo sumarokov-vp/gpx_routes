@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="StravaGPX">
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:route="http://gpx-routes.example.com/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="StravaGPX">
   <metadata>
     <name>The Giant XL</name>
     <desc>Distance: 129.8 km | Elevation: +2159m / -2161m</desc>
@@ -14,6 +14,10 @@
     </copyright>
     <link href="https://www.strava.com/routes/3427445253559177332">
     </link>
+    <extensions>
+      <route:distance>129.8</route:distance>
+      <route:elevation>2159</route:elevation>
+    </extensions>
   </metadata>
   <trk>
     <name>The Giant XL</name>

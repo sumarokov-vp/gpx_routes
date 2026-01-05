@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="https://www.komoot.de">
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:route="http://gpx-routes.example.com/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="https://www.komoot.de">
   <metadata>
     <name>MHS Day4 Alt:  Mae Sariang to Hot</name>
     <desc>Distance: 104.4 km | Elevation: +2058m / -1992m</desc>
@@ -9,6 +9,10 @@
         <type>text/html</type>
       </link>
     </author>
+    <extensions>
+      <route:distance>104.4</route:distance>
+      <route:elevation>2058</route:elevation>
+    </extensions>
   </metadata>
   <trk>
     <name>MHS Day4 Alt:  Mae Sariang to Hot</name>
