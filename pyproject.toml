@@ -1,0 +1,9 @@
+[project]
+name = "gpx-routes"
+version = "0.1.0"
+description = "GPX routes collection with metadata tools"
+requires-python = ">=3.10"
+dependencies = [
+    "gpxpy>=1.6.0",
+]
+
