@@ -12,6 +12,9 @@
     <extensions>
       <route:distance>150.3</route:distance>
       <route:elevation>1670</route:elevation>
+      <route:stops>
+        <route:stop name="Перекус" url="https://maps.app.goo.gl/VHNKctN9WRe11Rc56?g_st=it"/>
+      </route:stops>
     </extensions>
   </metadata>
   <trk>
