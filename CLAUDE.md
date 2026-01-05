@@ -10,10 +10,30 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - `gpx/` — GPX-файлы с GPS-треками, организованные по регионам
 - `qgz/` — файлы проектов QGIS для визуализации маршрутов
+- `add_metadata.py` — скрипт для добавления метаданных в GPX файлы
 
-## Инструменты
+## Команды
 
-Для работы с маршрутами требуется QGIS:
 ```bash
-brew install --cask qgis
+uv sync                      # установить зависимости
+uv run python add_metadata.py  # обновить метаданные во всех GPX
+brew install --cask qgis     # установить QGIS для визуализации
 ```
+
+## Формат метаданных GPX
+
+Метаданные хранятся в `<extensions>` с namespace `route`:
+
+```xml
+<extensions>
+  <route:distance>59.9</route:distance>    <!-- км, автоматически -->
+  <route:elevation>245</route:elevation>   <!-- м набора, автоматически -->
+  <route:stops>                            <!-- вручную -->
+    <route:stop name="DB slot" url="https://maps.app.goo.gl/..."/>
+    <route:stop name="Rab-a-bit" url="https://maps.app.goo.gl/..."/>
+  </route:stops>
+</extensions>
+```
+
+- `distance` и `elevation` — вычисляются скриптом автоматически
+- `stops` — добавляются вручную, скрипт их сохраняет при обновлении
